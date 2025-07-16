@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Khóa học</title>
+    <title>MMO AI - Biến Code Thành Tiền</title>
 
     <meta name="description"
-        content="Khóa học chất lượng – Học nhanh – Ứng dụng AI cùng IDAI, nền tảng giúp học viên và Freelancer nâng cao kỹ năng, sẵn sàng cho công việc tương lai." />
+        content="Bạn có kiến thức về lập trình, nhưng vẫn thất nghiệp, lương thấp vì bạn thiếu kỹ năng, thiếu Money Mindset và Funnel Building" />
     <meta name="keywords" content="Khóa học, kỹ năng, học online, AI, Freelancer" />
-    <meta name="author" content="idai.vn" />
+    <meta name="author" content="ai7.vn" />
 
     <!-- Open Graph (Facebook, Zalo) -->
-    <meta property="og:title" content="Khóa học phát triển kỹ năng" />
+    <meta property="og:title" content="MMO AI - Biến Code Thành Tiền" />
     <meta property="og:description"
-        content="Khóa học chất lượng – Học nhanh – Ứng dụng AI cùng IDAI, nền tảng giúp học viên và Freelancer nâng cao kỹ năng, sẵn sàng cho công việc tương lai." />
+        content="Bạn có kiến thức về lập trình, nhưng vẫn thất nghiệp, lương thấp vì bạn thiếu kỹ năng, thiếu Money Mindset và Funnel Building" />
     <meta property="og:image" content="https://apigw.idai.vn/files/preview/idai-main-thumbnail" />
     <meta property="og:url" content="http://ai7.vn" />
     <meta property="og:type" content="website" />
@@ -23,9 +23,9 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Khóa học phát triển kỹ năng" />
+    <meta name="twitter:title" content="MMO AI - Biến Code Thành Tiền" />
     <meta name="twitter:description"
-        content="Khóa học chất lượng – Học nhanh – Ứng dụng AI cùng IDAI, nền tảng giúp học viên và Freelancer nâng cao kỹ năng, sẵn sàng cho công việc tương lai." />
+        content="Bạn có kiến thức về lập trình, nhưng vẫn thất nghiệp, lương thấp vì bạn thiếu kỹ năng, thiếu Money Mindset và Funnel Building" />
     <meta name="twitter:image" content="https://apigw.idai.vn/files/preview/idai-main-thumbnail" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -101,7 +101,7 @@
 
     <!-- Hero Section -->
     <section
-        class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-purple-900 to-cyan-900">
+        class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-purple-900 to-cyan-900 overflow-hidden">
         <div class="container mx-auto px-6 text-center relative z-10">
             <!-- Robot AI Mascot -->
             <div class="fixed top-20 right-10 z-50">
@@ -119,7 +119,7 @@
             </div>
 
             <!-- Main Headlines -->
-            <h1 class="text-6xl md:text-8xl font-bold mb-6 glitch">
+            <h1 class="text-4xl md:text-8xl font-bold mb-6 glitch">
                 <span class="typing text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
                     BẠN CODE GIỎI,
                 </span>
@@ -133,26 +133,30 @@
             </p>
 
             <!-- Video Preview -->
-            <div class="mb-12 reveal" style="animation-delay: 5s;">
-                <div class="relative max-w-2xl mx-auto">
-                    <div class="bg-gray-800 p-6 rounded-2xl shadow-2xl">
-                        <div
-                            class="aspect-video bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                            <div class="text-center">
-                                <div class="text-6xl mb-4">▶️</div>
-                                <p class="text-lg">Developer đang code → Transform → 💰💰💰</p>
+            <div class="mb-12 reveal" style="animation-delay: 5s; transform: rotate(270deg)">
+                <div class="relative max-w-4xl mx-auto">
+                    <div class="bg-gray-800 p-4 sm:p-6 md:p-8 rounded-2xl shadow-2xl">
+                        <div class="w-full overflow-hidden flex justify-center items-center">
+                            <div class="rotate-video-wrapper relative">
+                                <video class="rotate-video block max-w-none" autoplay muted loop playsinline controls>
+                                    <source src="image/video.mp4" type="video/mp4" />
+                                    Trình duyệt của bạn không hỗ trợ video.
+                                </video>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- CTA Button -->
-            <button
-                class="glow bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white font-bold py-6 px-12 rounded-full text-xl transition-all duration-300 transform hover:scale-105 mb-8">
-                🚀 ĐĂNG KÝ BUỔI CHIA SẺ MIỄN PHÍ
-            </button>
 
+
+            <!-- CTA Button -->
+            <a href="https://zalo.me/g/bomyjf226">
+                <button
+                    class="glow bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white font-bold py-6 px-12 rounded-full text-xl transition-all duration-300 transform hover:scale-105 mb-8">
+                    🚀 ĐĂNG KÝ BUỔI CHIA SẺ MIỄN PHÍ
+                </button>
+            </a>
             <!-- Counter & Countdown -->
             <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-lg">
                 <div class="counter bg-green-600 px-6 py-3 rounded-full">
@@ -257,7 +261,7 @@
             </div>
 
             <!-- Video Introduction -->
-            <div class="max-w-4xl mx-auto mb-16">
+            <!-- <div class="max-w-4xl mx-auto mb-16">
                 <div class="bg-gray-800 p-6 rounded-2xl shadow-2xl">
                     <div
                         class="aspect-video bg-gradient-to-r from-purple-600 to-cyan-600 rounded-lg flex items-center justify-center">
@@ -268,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Key Points -->
             <div class="grid md:grid-cols-3 gap-8 mb-12">
@@ -292,10 +296,12 @@
             </div>
 
             <div class="text-center">
-                <button
-                    class="glow bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white font-bold py-6 px-12 rounded-full text-xl transition-all duration-300 transform hover:scale-105">
-                    🔍 KHÁM PHÁ NỘI DUNG KHÓA HỌC
-                </button>
+                <a href="https://zalo.me/g/bomyjf226">
+                    <button
+                        class="glow bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white font-bold py-6 px-12 rounded-full text-xl transition-all duration-300 transform hover:scale-105">
+                        🔍 KHÁM PHÁ NỘI DUNG KHÓA HỌC
+                    </button>
+                </a>
             </div>
         </div>
     </section>
@@ -788,9 +794,9 @@
                         </div>
                         <div class="mb-4">
                             <div class="text-sm text-gray-400 mb-2">TRƯỚC:</div>
-                            <p class="text-red-400">Lương 15tr/tháng, làm thuê</p>
+                            <p class="text-red-400">Lương 10tr/tháng</p>
                             <div class="text-sm text-gray-400 mb-2 mt-3">SAU:</div>
-                            <p class="text-green-400">Thu nhập 45tr/tháng từ affiliate + freelance</p>
+                            <p class="text-green-400">Thu nhập 25tr/tháng</p>
                         </div>
                         <p class="text-gray-300 italic">"Khóa học đã thay đổi hoàn toàn tư duy của tôi. Giờ tôi không
                             chỉ code mà còn biết cách kiếm tiền từ code!"</p>
@@ -802,14 +808,14 @@
                             <div
                                 class="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
                                 👩‍💻</div>
-                            <h4 class="text-xl font-bold">Thu Hà - Fullstack Dev</h4>
+                            <h4 class="text-xl font-bold">Thu Hà - Tester </h4>
                             <p class="text-gray-400">TP.HCM</p>
                         </div>
                         <div class="mb-4">
                             <div class="text-sm text-gray-400 mb-2">TRƯỚC:</div>
                             <p class="text-red-400">Thất nghiệp 6 tháng</p>
                             <div class="text-sm text-gray-400 mb-2 mt-3">SAU:</div>
-                            <p class="text-green-400">Kiếm 30tr/tháng từ YouTube + bán code</p>
+                            <p class="text-green-400">Kiếm 10tr/tháng từ YouTube + bán code</p>
                         </div>
                         <p class="text-gray-300 italic">"Tôi đã tạo được kênh YouTube về lập trình và kiếm tiền từ ads +
                             affiliate. Cảm ơn MMO AI!"</p>
@@ -828,7 +834,7 @@
                             <div class="text-sm text-gray-400 mb-2">TRƯỚC:</div>
                             <p class="text-red-400">Chỉ học lý thuyết, lo thất nghiệp</p>
                             <div class="text-sm text-gray-400 mb-2 mt-3">SAU:</div>
-                            <p class="text-green-400">Kiếm 20tr/tháng khi còn đi học</p>
+                            <p class="text-green-400">Kiếm 8tr/tháng khi còn đi học</p>
                         </div>
                         <p class="text-gray-300 italic">"Chưa ra trường đã có thu nhập ổn định. Bạn bè ai cũng ghen tị
                             với mình!"</p>
@@ -848,7 +854,7 @@
                                 <p class="text-sm">Minh Tuấn</p>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-400">30s | Từ 15tr → 45tr/tháng</p>
+                        <p class="text-sm text-gray-400">30s | Từ 10tr → 25tr/tháng</p>
                     </div>
                     <div class="bg-gray-800 p-4 rounded-xl">
                         <div
@@ -858,7 +864,7 @@
                                 <p class="text-sm">Thu Hà</p>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-400">30s | Từ thất nghiệp → 30tr/tháng</p>
+                        <p class="text-sm text-gray-400">30s | Từ thất nghiệp → 10tr/tháng</p>
                     </div>
                     <div class="bg-gray-800 p-4 rounded-xl">
                         <div
@@ -868,7 +874,7 @@
                                 <p class="text-sm">Đức Anh</p>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-400">30s | Sinh viên kiếm 20tr/tháng</p>
+                        <p class="text-sm text-gray-400">30s | Sinh viên kiếm 8tr/tháng</p>
                     </div>
                 </div>
             </div>
@@ -892,12 +898,14 @@
                         <div class="text-center">
                             <div
                                 class="w-48 h-48 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full mx-auto mb-6 flex items-center justify-center text-6xl">
-                                👨‍🏫</div>
-                            <h3 class="text-3xl font-bold mb-2">Nguyễn Văn A</h3>
-                            <p class="text-xl text-purple-400 mb-4">Senior MMO Expert &amp; Tech Lead</p>
+
+                                <img src="image/avatar.jpg" class="rounded-full w-full h-full object-contain" />
+                            </div>
+                            <h3 class="text-3xl font-bold mb-2">Mentor: Coder Tay To</h3>
+                            <p class="text-xl text-purple-400 mb-4"> CEO TechByte</p>
                             <div class="flex justify-center space-x-4 text-sm">
-                                <span class="bg-indigo-600 px-3 py-1 rounded-full">10+ năm kinh nghiệm</span>
-                                <span class="bg-purple-600 px-3 py-1 rounded-full">500+ học viên thành công</span>
+                                <span class="bg-indigo-600 px-3 py-1 rounded-full">5 năm kinh nghiệm</span>
+                                <span class="bg-purple-600 px-3 py-1 rounded-full">38+ học viên thành công</span>
                             </div>
                         </div>
 
@@ -931,7 +939,7 @@
                                 <div class="flex items-center">
                                     <div class="text-2xl mr-4">🎓</div>
                                     <div>
-                                        <div class="font-bold">Cố vấn cho 50+ doanh nghiệp</div>
+                                        <div class="font-bold">Cố vấn cho 15+ doanh nghiệp</div>
                                         <div class="text-gray-400 text-sm">Về chuyển đổi số &amp; MMO</div>
                                     </div>
                                 </div>
@@ -1015,7 +1023,7 @@
                     </div>
 
                     <!-- CTA Button -->
-                    <button
+                    <button onclick="showExitRegisterPopup()"
                         class="glow bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-bold py-6 px-12 rounded-full text-2xl transition-all duration-300 transform hover:scale-105 w-full">
                         💳 ĐĂNG KÝ NGAY - CHỈ 8.000.000đ
                     </button>
@@ -1138,8 +1146,8 @@
                     </div>
 
                     <!-- Super CTA -->
-                    <button
-                        class="glow bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-bold py-8 px-16 rounded-full text-3xl transition-all duration-300 transform hover:scale-105 w-full mb-6">
+                    <button onclick="showExitRegisterPopup()"
+                        class="glow bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-bold py-8 px-16 rounded-full text-3xl transition-all duration-300 hover:scale-105 w-full mb-6">
                         🚀 GIỮ SLOT NGAY - CHỈ 7-10 HỌC VIÊN MỖI KHÓA
                     </button>
 
@@ -1170,7 +1178,7 @@
                     </div>
                 </div>
 
-                <div>
+                <!-- <div>
                     <h4 class="text-lg font-bold mb-4">Theo dõi</h4>
                     <div class="flex space-x-4">
                         <a href="https://www.facebook.com/idai.vn/"
@@ -1185,7 +1193,7 @@
                         <a href="https://t.me/sp_idai" class="text-2xl hover:text-green-400 transition-colors"><i
                                 class="fa-brands fa-telegram"></i></a>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- <div>
                     <h4 class="text-lg font-bold mb-4">Pháp lý</h4>
@@ -1206,20 +1214,46 @@
             <div class="text-3xl">🤖</div>
         </div> -->
     </div>
-
     <!-- Exit Intent Popup -->
-    <div class="popup-overlay" id="exitPopup">
+    <div id="exitPopup" class="popup-overlay">
         <div class="popup-content">
-            <h3 class="text-3xl font-bold mb-4">ĐỢI ĐÃ!</h3>
-            <p class="text-xl mb-6">Nhận ngay tài liệu MIỄN PHÍ trước khi rời đi!</p>
-            <div class="mb-6">
-                <input type="email" placeholder="Email của bạn..." class="w-full p-3 rounded-lg text-gray-800 mb-4">
-                <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-8 rounded-lg w-full">
-                    🎁 NHẬN NGAY MIỄN PHÍ
-                </button>
-            </div>
-            <p class="text-sm opacity-75">+ Thêm 30 phút tư vấn 1-1 miễn phí!</p>
-            <button class="absolute top-4 right-4 text-2xl" onclick="closePopup()">×</button>
+            <div class="text-5xl mb-6">🤖😰</div>
+            <h3 class="text-2xl md:text-3xl font-bold mb-3 text-gray-900">ĐỢI ĐÃ!</h3>
+            <p class="text-base md:text-lg mb-6">Nhận ngay <strong>tài liệu MIỄN PHÍ</strong> trước khi bạn rời đi!</p>
+
+            <input type="email" placeholder="Nhập email của bạn..."
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4" />
+
+            <button
+                class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 rounded-lg transition duration-200">
+                🎁 NHẬN MIỄN PHÍ NGAY
+            </button>
+
+            <p class="text-sm text-gray-500 mt-4">+ Tặng thêm 30 phút tư vấn 1-1 miễn phí!</p>
+
+            <button class="absolute top-3 right-4 text-2xl text-gray-800" onclick="closePopup()">×</button>
+        </div>
+    </div>
+
+
+    <div id="registerPopup" class="popup-overlay">
+        <div class="popup-content">
+            <div class="text-5xl mb-6">🤖😰</div>
+            <h3 class="text-2xl md:text-3xl font-bold mb-3 text-gray-900">Đăng ký!</h3>
+            <p class="text-base md:text-lg mb-6">Để lại <strong>thông tin của bạn</strong>vào đây !</p>
+
+            <input type="text" placeholder="Nhập tên của bạn..."
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4" />
+            <input type="text" placeholder="Nhập số điện thoại của bạn..."
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4" />
+
+            <button onclick="closeRegisterPopup()"
+                class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 rounded-lg transition duration-200">
+                🎁 NHẬN MIỄN PHÍ NGAY
+            </button>
+
+
+            <button class="absolute top-3 right-4 text-2xl text-gray-800" onclick="closeRegisterPopup()">×</button>
         </div>
     </div>
 
@@ -1229,7 +1263,7 @@
             const scrollTop = window.pageYOffset;
             const docHeight = document.body.scrollHeight - window.innerHeight;
             const scrollPercent = (scrollTop / docHeight) * 100;
-            document.getElementById('progressBar').style.width = scrollPercent + '%';
+            // document.getElementById('progressBar').style.width = scrollPercent + '%';
         }
 
         // Particles Animation
@@ -1412,6 +1446,15 @@
             alert('Xin chào! Tôi là AI Assistant. Bạn cần hỗ trợ gì về khóa học MMO AI không? 🤖');
         }
 
+        function showExitRegisterPopup() {
+            document.getElementById('registerPopup').classList.add('show');
+            exitIntentShown = true;
+        }
+
+        function closeRegisterPopup() {
+            document.getElementById('registerPopup').classList.remove('show');
+        }
+
         // Exit Intent Popup
         let exitIntentShown = false;
         function showExitPopup() {
@@ -1426,18 +1469,18 @@
         }
 
         // Exit intent detection
-        document.addEventListener('mouseleave', (e) => {
-            if (e.clientY <= 0) {
-                showExitPopup();
-            }
-        });
+        // document.addEventListener('mouseleave', (e) => {
+        //     if (e.clientY <= 0) {
+        //         showExitPopup();
+        //     }
+        // });
 
         // Timed popup (30 seconds)
         setTimeout(() => {
             if (!exitIntentShown) {
                 showExitPopup();
             }
-        }, 30000);
+        }, 20000);
 
         // Scroll popup (50% scroll)
         let scrollPopupShown = false;
@@ -1448,7 +1491,6 @@
                 scrollPopupShown = true;
             }
         }
-
         // Flash animation for countdown when time is low
         const flashStyle = document.createElement('style');
         flashStyle.textContent = `
