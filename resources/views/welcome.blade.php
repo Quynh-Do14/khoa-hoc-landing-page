@@ -1231,7 +1231,7 @@
 
             <p class="text-sm text-gray-500 mt-4">+ Tặng thêm 30 phút tư vấn 1-1 miễn phí!</p>
 
-            <button class="absolute top-3 right-4 text-2xl text-gray-800" onclick="closePopup()">×</button>
+            <button class="absolute top-0 right-4 text-2xl text-gray-800" onclick="closePopup()">×</button>
         </div>
     </div>
 
@@ -1253,7 +1253,7 @@
             </button>
 
 
-            <button class="absolute top-3 right-4 text-2xl text-gray-800" onclick="closeRegisterPopup()">×</button>
+            <button class="absolute top-0 right-4 text-2xl text-gray-800" onclick="closeRegisterPopup()">×</button>
         </div>
     </div>
 
