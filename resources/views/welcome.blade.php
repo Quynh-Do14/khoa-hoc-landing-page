@@ -135,7 +135,7 @@
             </p>
 
             <!-- Video Preview -->
-            <div class="mb-12 reveal" style="animation-delay: 5s; transform: rotate(270deg)">
+            <div class="mb-12 reveal" style="animation-delay: 5s">
                 <div class="relative max-w-4xl mx-auto">
                     <div class="bg-gray-800 p-4 sm:p-6 md:p-8 rounded-2xl shadow-2xl">
                         <div class="w-full overflow-hidden flex justify-center items-center">
@@ -1184,21 +1184,30 @@
     <!-- Exit Intent Popup -->
     <div id="exitPopup" class="popup-overlay">
         <div class="popup-content">
-            <div class="text-5xl mb-6">🤖😰</div>
-            <h3 class="text-2xl md:text-3xl font-bold mb-3 text-gray-900">ĐỢI ĐÃ!</h3>
-            <p class="text-base md:text-lg mb-6">Nhận ngay <strong>tài liệu MIỄN PHÍ</strong> trước khi bạn rời đi!</p>
+            <div class="text-5xl mb-4">🤖😰</div>
 
-            <input type="email" placeholder="Nhập email của bạn..."
-                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4" />
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-2 text-gray-800 tracking-tight leading-tight">
+                ĐỢI ĐÃ!
+            </h3>
+
+            <p class="text-lg md:text-xl mb-5 text-gray-700 leading-relaxed">
+                Nhận ngay <strong class="text-yellow-600 font-semibold">tài liệu MIỄN PHÍ</strong> trước khi bạn rời đi!
+            </p>
+
+            <!-- <input type="email" placeholder="Nhập email của bạn..."
+                class="w-full p-3 text-base md:text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4 placeholder-gray-400" /> -->
+
             <a href="https://zalo.me/g/bomyjf226">
                 <button
-                    class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 rounded-lg transition duration-200">
+                    class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg md:text-xl py-3 rounded-lg transition duration-200 shadow-md hover:shadow-lg">
                     🎁 NHẬN MIỄN PHÍ NGAY
                 </button>
             </a>
-            <p class="text-sm text-gray-500 mt-4">+ Tặng thêm 30 phút tư vấn 1-1 miễn phí!</p>
 
-            <button class="absolute top-0 right-4 text-2xl text-gray-800" onclick="closePopup()">×</button>
+            <!-- <p class="text-sm text-white mt-4 italic">+ Tặng thêm <strong>30 phút tư vấn 1-1</strong> miễn phí!</p> -->
+
+            <button class="absolute top-0 right-4 text-3xl text-gray-700 hover:text-black transition duration-150"
+                onclick="closePopup()">×</button>
         </div>
     </div>
 
