@@ -1184,33 +1184,33 @@
     <!-- Exit Intent Popup -->
     <div id="exitPopup" class="popup-overlay">
         <div class="popup-content">
-            <div class="text-5xl mb-4">🤖😰</div>
+            <!-- Icon -->
+            <div class="text-6xl text-center mb-4">🤖😰</div>
 
-            <h3 class="text-3xl md:text-4xl font-extrabold mb-2 text-gray-800 tracking-tight leading-tight">
-                ĐỢI ĐÃ!
-            </h3>
+            <!-- Tiêu đề -->
+            <h3 class="text-3xl text-center text-gray-800 mb-2 tracking-tight font-bold">KHOAN ĐÃ!</h3>
 
-            <p class="text-lg md:text-xl mb-5 text-gray-700 leading-relaxed">
-                Nhận ngay <strong class="text-yellow-600 font-semibold">tài liệu MIỄN PHÍ</strong> trước khi bạn rời đi!
+            <!-- Mô tả -->
+            <p class="text-lg text-center text-black mb-6 leading-relaxed">
+                Đừng vội rời đi! Bạn có thể <span class="text-yellow-700 font-bold">nhận ngay bộ tài liệu MIỄN
+                    PHÍ</span> cực kỳ giá trị 🎁
             </p>
 
-            <!-- <input type="email" placeholder="Nhập email của bạn..."
-                class="w-full p-3 text-base md:text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4 placeholder-gray-400" /> -->
-
+            <!-- Nút nhận -->
             <a href="https://zalo.me/g/bomyjf226">
                 <button
-                    class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg md:text-xl py-3 rounded-lg transition duration-200 shadow-md hover:shadow-lg">
-                    🎁 NHẬN MIỄN PHÍ NGAY
+                    class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold text-lg py-3 rounded-lg transition duration-300 shadow-md hover:shadow-lg">
+                    📥 TẢI NGAY MIỄN PHÍ
                 </button>
             </a>
 
-            <!-- <p class="text-sm text-white mt-4 italic">+ Tặng thêm <strong>30 phút tư vấn 1-1</strong> miễn phí!</p> -->
-
-            <button class="absolute top-0 right-4 text-3xl text-gray-700 hover:text-black transition duration-150"
-                onclick="closePopup()">×</button>
+            <!-- Nút đóng -->
+            <button onclick="closePopup()"
+                class="absolute top-3 right-4 text-gray-500 hover:text-gray-800 text-2xl font-bold focus:outline-none transition duration-200">
+                &times;
+            </button>
         </div>
     </div>
-
 
     <div id="registerPopup" class="popup-overlay">
         <div class="popup-content">
