@@ -50,12 +50,12 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-gray-900 text-white overflow-x-hidden relative">
+<div class="bg-gray-900 text-white overflow-x-hidden relative">
     <!-- Progress Bar -->
     <!-- <div class="progress-bar" id="progressBar" style="width: 0%;"></div> -->
 
     <!-- Particles Background -->
-    <div class="particles fixed inset-0 z-0" id="particles">
+    <!-- <div class="particles fixed inset-0 z-0" id="particles">
         <div class="particle" style="left: 78.3089%; animation-duration: 15.2954s;">while()</div>
         <div class="particle" style="left: 19.4233%; animation-duration: 10.1581s;">&lt;/div&gt;</div>
         <div class="particle" style="left: 59.919%; animation-duration: 12.0427s;">$.ajax</div>
@@ -86,7 +86,7 @@
         <div class="particle" style="left: 71.3485%; animation-duration: 13.9557s;">function()</div>
         <div class="particle" style="left: 94.607%; animation-duration: 11.0157s;">let</div>
         <div class="particle" style="left: 10.8007%; animation-duration: 19.4521s;">const</div>
-    </div>
+    </div> -->
 
     <!-- Flash Notification -->
     <div class="flash-notification" id="flashNotification">
@@ -120,8 +120,10 @@
 
             <!-- Main Headlines -->
             <h1 class="text-4xl md:text-8xl font-bold mb-6 glitch">
-                <span class="typing text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
-                    BẠN CODE GIỎI,
+                <span
+                    class="typing text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 break-words">
+                    Bạn có kiến thức về
+                    <br /> lập trình,
                 </span>
             </h1>
             <h2 class="text-4xl md:text-6xl font-bold mb-8 text-red-400 reveal" style="animation-delay: 3s;">
@@ -140,7 +142,6 @@
                             <div class="rotate-video-wrapper relative">
                                 <video class="rotate-video block max-w-none" autoplay muted loop playsinline controls>
                                     <source src="image/video.mp4" type="video/mp4" />
-                                    Trình duyệt của bạn không hỗ trợ video.
                                 </video>
                             </div>
                         </div>
@@ -160,7 +161,7 @@
             <!-- Counter & Countdown -->
             <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-lg">
                 <div class="counter bg-green-600 px-6 py-3 rounded-full">
-                    <span id="registeredCount">247</span> người đã đăng ký hôm nay
+                    <span id="registeredCount">68</span> người đã đăng ký hôm nay
                 </div>
                 <div class="bg-red-600 px-6 py-3 rounded-full">
                     Ưu đãi kết thúc sau: <span id="countdown" class="font-mono font-bold">22:25:08</span>
@@ -213,22 +214,22 @@
                 <div class="grid md:grid-cols-2 gap-4">
                     <label
                         class="flex items-center p-4 bg-gray-600 rounded-lg cursor-pointer hover:bg-gray-500 transition-colors">
-                        <input type="checkbox" class="mr-3">
+                        <input type="checkbox" checked class="mr-3">
                         <span>Lương thấp dù code giỏi</span>
                     </label>
                     <label
                         class="flex items-center p-4 bg-gray-600 rounded-lg cursor-pointer hover:bg-gray-500 transition-colors">
-                        <input type="checkbox" class="mr-3">
+                        <input type="checkbox" checked class="mr-3">
                         <span>Không biết kiếm tiền từ code</span>
                     </label>
                     <label
                         class="flex items-center p-4 bg-gray-600 rounded-lg cursor-pointer hover:bg-gray-500 transition-colors">
-                        <input type="checkbox" class="mr-3">
+                        <input type="checkbox" checked class="mr-3">
                         <span>Muốn thu nhập thụ động</span>
                     </label>
                     <label
                         class="flex items-center p-4 bg-gray-600 rounded-lg cursor-pointer hover:bg-gray-500 transition-colors">
-                        <input type="checkbox" class="mr-3">
+                        <input type="checkbox" checked class="mr-3">
                         <span>Sợ thất nghiệp trong tương lai</span>
                     </label>
                 </div>
@@ -294,15 +295,14 @@
                     <p class="text-gray-300">tạo thu nhập thụ động</p>
                 </div>
             </div>
-
-            <div class="text-center">
-                <a href="https://zalo.me/g/bomyjf226">
+            <a class="text-center" href="https://zalo.me/g/bomyjf226">
+                <div class="text-center">
                     <button
                         class="glow bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white font-bold py-6 px-12 rounded-full text-xl transition-all duration-300 transform hover:scale-105">
                         🔍 KHÁM PHÁ NỘI DUNG KHÓA HỌC
                     </button>
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
     </section>
 
@@ -731,7 +731,7 @@
                             <div class="text-3xl mr-4">👥</div>
                             <span class="text-xl font-semibold">Cộng đồng hỗ trợ trọn đời</span>
                         </div>
-                        <div class="text-2xl font-bold text-yellow-400">Priceless</div>
+                        <div class="text-2xl font-bold text-yellow-400">Priceless! Hoàn toàn được hỗ trợ miễn phí</div>
                     </div>
 
                     <div class="value-item flex justify-between items-center bg-gray-800 p-6 rounded-xl">
@@ -763,7 +763,7 @@
                 <div class="bg-gradient-to-r from-yellow-600 to-orange-600 p-8 rounded-2xl text-center">
                     <h3 class="text-3xl font-bold mb-4">TỔNG GIÁ TRỊ</h3>
                     <div class="text-6xl font-bold mb-4" id="totalValue">33.000.000đ+</div>
-                    <p class="text-xl">Chưa tính các giá trị Priceless!</p>
+                    <p class="text-xl">Chưa tính các giá trị Priceless! Bạn nhận được khi tham gia khóa học</p>
                 </div>
             </div>
         </div>
@@ -788,7 +788,8 @@
                         <div class="text-center mb-4">
                             <div
                                 class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
-                                👨‍💻</div>
+                                <img src="image/an1.jpg" class="rounded-full w-full h-full object-contain" alt="">
+                            </div>
                             <h4 class="text-xl font-bold">Minh Tuấn - Frontend Dev</h4>
                             <p class="text-gray-400">Hà Nội</p>
                         </div>
@@ -807,7 +808,8 @@
                         <div class="text-center mb-4">
                             <div
                                 class="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
-                                👩‍💻</div>
+                                <img src="image/an2.jpg" class="rounded-full w-full h-full object-contain" alt="">
+                            </div>
                             <h4 class="text-xl font-bold">Thu Hà - Tester </h4>
                             <p class="text-gray-400">TP.HCM</p>
                         </div>
@@ -826,7 +828,8 @@
                         <div class="text-center mb-4">
                             <div
                                 class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-500 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
-                                👨‍🎓</div>
+                                <img src="image/an3.jpg" class="rounded-full w-full h-full object-contain" alt="">
+                            </div>
                             <h4 class="text-xl font-bold">Đức Anh - Sinh viên IT</h4>
                             <p class="text-gray-400">Đà Nẵng</p>
                         </div>
@@ -842,42 +845,6 @@
                 </div>
             </div>
 
-            <!-- Video Testimonials -->
-            <div class="text-center">
-                <h3 class="text-3xl font-bold mb-8">Video Testimonials</h3>
-                <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-                    <div class="bg-gray-800 p-4 rounded-xl">
-                        <div
-                            class="aspect-video bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mb-3">
-                            <div class="text-center">
-                                <div class="text-4xl mb-2">▶️</div>
-                                <p class="text-sm">Minh Tuấn</p>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-400">30s | Từ 10tr → 25tr/tháng</p>
-                    </div>
-                    <div class="bg-gray-800 p-4 rounded-xl">
-                        <div
-                            class="aspect-video bg-gradient-to-r from-pink-600 to-red-600 rounded-lg flex items-center justify-center mb-3">
-                            <div class="text-center">
-                                <div class="text-4xl mb-2">▶️</div>
-                                <p class="text-sm">Thu Hà</p>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-400">30s | Từ thất nghiệp → 10tr/tháng</p>
-                    </div>
-                    <div class="bg-gray-800 p-4 rounded-xl">
-                        <div
-                            class="aspect-video bg-gradient-to-r from-green-600 to-teal-600 rounded-lg flex items-center justify-center mb-3">
-                            <div class="text-center">
-                                <div class="text-4xl mb-2">▶️</div>
-                                <p class="text-sm">Đức Anh</p>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-400">30s | Sinh viên kiếm 8tr/tháng</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -916,7 +883,7 @@
                                     <div class="text-2xl mr-4">💰</div>
                                     <div>
                                         <div class="font-bold">Thu nhập 7 tỷ/năm</div>
-                                        <div class="text-gray-400 text-sm">Từ hệ thống affiliate tự động</div>
+                                        <div class="text-gray-400 text-sm">Từ hệ thống MMO AI</div>
                                     </div>
                                 </div>
 
@@ -931,7 +898,7 @@
                                 <div class="flex items-center">
                                     <div class="text-2xl mr-4">📺</div>
                                     <div>
-                                        <div class="font-bold">Kênh YouTube 500K subscribers</div>
+                                        <div class="font-bold">Kênh YouTube đạt 300 triệu views</div>
                                         <div class="text-gray-400 text-sm">Về lập trình &amp; kinh doanh online</div>
                                     </div>
                                 </div>
@@ -946,8 +913,9 @@
                             </div>
 
                             <div class="mt-6 p-4 bg-indigo-900 rounded-lg">
-                                <p class="italic text-indigo-200">"Tôi đã giúp hàng trăm developer biến kỹ năng code
-                                    thành nguồn thu nhập bền vững. Bạn sẽ là người tiếp theo!"</p>
+                                <p class="italic text-indigo-200">"Nhà sáng lập hệ sinh thái kinh doanh số, thứ tôi có:
+                                    Sức khỏe - Tuổi trẻ - Tốc độ", đã đồng hành hơn 30 học viên và hàng trăm developer
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1023,10 +991,12 @@
                     </div>
 
                     <!-- CTA Button -->
-                    <button onclick="showExitRegisterPopup()"
-                        class="glow bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-bold py-6 px-12 rounded-full text-2xl transition-all duration-300 transform hover:scale-105 w-full">
-                        💳 ĐĂNG KÝ NGAY - CHỈ 8.000.000đ
-                    </button>
+                    <a href="https://zalo.me/g/bomyjf226">
+                        <button
+                            class="glow bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-bold py-6 px-12 rounded-full text-2xl transition-all duration-300 transform hover:scale-105 w-full">
+                            💳 ĐĂNG KÝ NGAY - CHỈ 8.000.000đ
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1150,9 +1120,6 @@
                         class="glow bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-bold py-8 px-16 rounded-full text-3xl transition-all duration-300 hover:scale-105 w-full mb-6">
                         🚀 GIỮ SLOT NGAY - CHỈ 7-10 HỌC VIÊN MỖI KHÓA
                     </button>
-
-                    <p class="text-xl text-gray-300">💡 Lưu ý: Sau khi đăng ký, bạn sẽ nhận được email xác nhận và link
-                        tham gia group VIP trong 5 phút</p>
                 </div>
             </div>
         </div>
@@ -1223,12 +1190,12 @@
 
             <input type="email" placeholder="Nhập email của bạn..."
                 class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4" />
-
-            <button
-                class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 rounded-lg transition duration-200">
-                🎁 NHẬN MIỄN PHÍ NGAY
-            </button>
-
+            <a href="https://zalo.me/g/bomyjf226">
+                <button
+                    class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 rounded-lg transition duration-200">
+                    🎁 NHẬN MIỄN PHÍ NGAY
+                </button>
+            </a>
             <p class="text-sm text-gray-500 mt-4">+ Tặng thêm 30 phút tư vấn 1-1 miễn phí!</p>
 
             <button class="absolute top-0 right-4 text-2xl text-gray-800" onclick="closePopup()">×</button>
@@ -1240,19 +1207,9 @@
         <div class="popup-content">
             <div class="text-5xl mb-6">🤖😰</div>
             <h3 class="text-2xl md:text-3xl font-bold mb-3 text-gray-900">Đăng ký!</h3>
-            <p class="text-base md:text-lg mb-6">Để lại <strong>thông tin của bạn</strong>vào đây !</p>
+            <p class="text-base md:text-lg mb-6">Quét mã <strong>QR Code</strong> để tham gia !</p>
 
-            <input type="text" placeholder="Nhập tên của bạn..."
-                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4" />
-            <input type="text" placeholder="Nhập số điện thoại của bạn..."
-                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 mb-4" />
-
-            <button onclick="closeRegisterPopup()"
-                class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 rounded-lg transition duration-200">
-                🎁 NHẬN MIỄN PHÍ NGAY
-            </button>
-
-
+            <img src="image/qr.jpg" class="w-full mb-4 rounded-lg object-contain" alt="">
             <button class="absolute top-0 right-4 text-2xl text-gray-800" onclick="closeRegisterPopup()">×</button>
         </div>
     </div>
@@ -1321,8 +1278,8 @@
         // Counter Animation
         function animateCounter() {
             const counter = document.getElementById('registeredCount');
-            let count = 200;
-            const target = 247;
+            let count = 10;
+            const target = 68;
             const increment = () => {
                 if (count < target) {
                     count += Math.ceil((target - count) / 10);
@@ -1554,6 +1511,6 @@
     <iframe height="1" width="1"
         style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
 
-</body>
+</div>
 
 </html>
