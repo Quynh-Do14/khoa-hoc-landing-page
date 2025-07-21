@@ -152,7 +152,7 @@
 
 
             <!-- CTA Button -->
-            <a href="https://zalo.me/g/bomyjf226">
+            <a href="https://zalo.me/g/otoevm317">
                 <button
                     class="glow bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white font-bold py-6 px-12 rounded-full text-xl transition-all duration-300 transform hover:scale-105 mb-8">
                     🚀 ĐĂNG KÝ BUỔI CHIA SẺ MIỄN PHÍ
@@ -161,7 +161,7 @@
             <!-- Counter & Countdown -->
             <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-lg">
                 <div class="counter bg-green-600 px-6 py-3 rounded-full">
-                    <span id="registeredCount">68</span> người đã đăng ký hôm nay
+                    <span id="registeredCount">28</span> người đã đăng ký hôm nay
                 </div>
                 <div class="bg-red-600 px-6 py-3 rounded-full">
                     Ưu đãi kết thúc sau: <span id="countdown" class="font-mono font-bold">22:25:08</span>
@@ -295,7 +295,7 @@
                     <p class="text-gray-300">tạo thu nhập thụ động</p>
                 </div>
             </div>
-            <a class="text-center" href="https://zalo.me/g/bomyjf226">
+            <a class="text-center" href="https://zalo.me/g/otoevm317">
                 <div class="text-center">
                     <button
                         class="glow bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white font-bold py-6 px-12 rounded-full text-xl transition-all duration-300 transform hover:scale-105">
@@ -679,20 +679,20 @@
             <div class="text-center mb-16">
                 <h2
                     class="text-5xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">
-                    GIÁ TRỊ THỰC BẠN NHẬN ĐƯỢC
+                    QUÀ TẶNG KHI THAM GIA ĐỔI CHO GIÁ TRỊ THỰC BẠN NHẬN ĐƯỢC
                 </h2>
                 <div class="text-6xl mb-8">🤖😲</div>
             </div>
 
             <div class="max-w-4xl mx-auto">
                 <div class="space-y-4 mb-8">
-                    <div class="value-item flex justify-between items-center bg-gray-800 p-6 rounded-xl">
+                    <!-- <div class="value-item flex justify-between items-center bg-gray-800 p-6 rounded-xl">
                         <div class="flex items-center">
                             <div class="text-3xl mr-4">📚</div>
                             <span class="text-xl font-semibold">11 buổi học chuyên sâu</span>
                         </div>
                         <div class="text-2xl font-bold text-green-400">15.000.000đ</div>
-                    </div>
+                    </div> -->
 
                     <div class="value-item flex justify-between items-center bg-gray-800 p-6 rounded-xl">
                         <div class="flex items-center">
@@ -760,11 +760,19 @@
                 </div>
 
                 <!-- Total Value -->
-                <div class="bg-gradient-to-r from-yellow-600 to-orange-600 p-8 rounded-2xl text-center">
-                    <h3 class="text-3xl font-bold mb-4">TỔNG GIÁ TRỊ</h3>
-                    <div class="text-6xl font-bold mb-4" id="totalValue">33.000.000đ+</div>
-                    <p class="text-xl">Chưa tính các giá trị Priceless! Bạn nhận được khi tham gia khóa học</p>
+                <div class="bg-gradient-to-r from-yellow-600 to-orange-600 p-8 rounded-2xl text-center shadow-xl">
+                    <h3 class="text-3xl md:text-4xl font-extrabold text-white tracking-wider mb-4 drop-shadow-sm">
+                        🎁 TỔNG GIÁ TRỊ
+                    </h3>
+
+                    <div
+                        class="text-5xl md:text-6xl font-extrabold mb-4 text-white animate-pulse drop-shadow-[0_0_10px_rgba(255,255,255,0.6)] tracking-tight">
+                        HOÀN TOÀN MIỄN PHÍ
+                    </div>
+
+                    <!-- <p class="text-lg text-white/90 italic">Chưa tính các giá trị Priceless! Bạn nhận được khi tham gia khóa học</p> -->
                 </div>
+
             </div>
         </div>
     </section>
@@ -917,6 +925,12 @@
                                     Sức khỏe - Tuổi trẻ - Tốc độ", đã đồng hành hơn 30 học viên và hàng trăm developer
                                 </p>
                             </div>
+                            <div class="mt-6 p-4 bg-indigo-900 rounded-lg">
+                                <p class="italic text-indigo-200">Trong phần thành tựu: Đã hỗ trợ và đồng hành cùng 5125
+                                    sinh viên IT từ các trường cao đẳng/đại học từ 3 miền: Bắc – Trung – Nam và nước
+                                    ngoài
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -991,7 +1005,7 @@
                     </div>
 
                     <!-- CTA Button -->
-                    <a href="https://zalo.me/g/bomyjf226">
+                    <a href="https://zalo.me/g/otoevm317">
                         <button
                             class="glow bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-bold py-6 px-12 rounded-full text-2xl transition-all duration-300 transform hover:scale-105 w-full">
                             💳 ĐĂNG KÝ NGAY - CHỈ 8.000.000đ
@@ -1130,7 +1144,7 @@
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <div>
-                    <h3 class="text-2xl font-bold mb-4">IDAI</h3>
+                    <h3 class="text-2xl font-bold mb-4">MMOIDAI</h3>
                     <p class="text-gray-400">Biến Code Thành Tiền - Khóa học dành cho Developer thông minh</p>
                 </div>
 
@@ -1138,7 +1152,7 @@
                     <h4 class="text-lg font-bold mb-4">Liên hệ</h4>
                     <div class="space-y-2 text-gray-400">
                         <p>📧 ai@idai.vn</p>
-                        <p>📞 0375.145.998</p>
+                        <p>📞 0926.397.972</p>
                         <p>📍 Trụ sở chính: Số nhà 10, dãy H, Khu tập thể Công an Đa Sỹ, Phường Kiến Hưng, Quận Hà Đông
                             Thành phố Hà Nội, Việt Nam</p>
                         <p>📍 Văn phòng giao dịch: Nhà 2B, 110 Đường Nguyễn Hoàng Tôn, Xuân La, Tây Hồ, Hà Nội</p>
@@ -1197,7 +1211,7 @@
             </p>
 
             <!-- Nút nhận -->
-            <a href="https://zalo.me/g/bomyjf226">
+            <a href="https://zalo.me/g/otoevm317">
                 <button
                     class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold text-lg py-3 rounded-lg transition duration-300 shadow-md hover:shadow-lg">
                     📥 TẢI NGAY MIỄN PHÍ
@@ -1206,7 +1220,7 @@
 
             <!-- Nút đóng -->
             <button onclick="closePopup()"
-                class="absolute top-3 right-4 text-gray-500 hover:text-gray-800 text-2xl font-bold focus:outline-none transition duration-200">
+                class="absolute top-1 right-4 text-gray-800 text-2xl font-bold focus:outline-none transition duration-200">
                 &times;
             </button>
         </div>
@@ -1288,7 +1302,7 @@
         function animateCounter() {
             const counter = document.getElementById('registeredCount');
             let count = 10;
-            const target = 68;
+            const target = 28;
             const increment = () => {
                 if (count < target) {
                     count += Math.ceil((target - count) / 10);
